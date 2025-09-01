@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .box{
+            background-color: black;
+            width: 500px;
+            height: 500px;
+            animation-name: box;
+            animation-duration: 10s;
+            animation-timing-function: ease;
+            animation-iteration-count: 5;
+          margin: 300px;
+            border-bottom: 10px;
+          
+        }
+        @keyframes box{
+       0%{
+        background-color: aqua;
+        height: 100px;
+        width: 150px;
+        border-radius: 30px;
+       }
+       10%{
+        background-color: brown;
+        height: 200px;
+        width: 50px;
+        border-radius: 45px;
+       }
+       20%{
+        background-color: chartreuse;
+        border-radius: 90px;
+       }
+       30%{
+        background-color: darkorange;
+        border-radius: 145px;
+       }
+       40%{
+        background-color: seagreen;
+        border-radius: 160px;
+       }
+       50%{
+        background-color: magenta;
+        border-radius: 190px;
+       
+       }
+     100%{
+        background-color: purple;
+        transform: rotate(45deg);
+        
+     }
+        }
+ 
+    </style>
+    <head>
+        <body>
+<div class="box"></div>
+        </body>
+    </head>
+    </html>

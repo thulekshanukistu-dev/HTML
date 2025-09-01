@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+.box{
+  
+    width: 200px;
+    height: 200px;
+   
+      animation-name: box;
+            animation-duration: 10s;
+            animation-timing-function: ease;
+            animation-iteration-count: 5;
+         
+            border-bottom: 10px;
+         animation-direction: normal;
+            
+          
+}
+@keyframes box{
+    0%{
+        background-color: aqua;
+    }
+    20%{
+        background-color: chartreuse;
+       
+    }
+    30%{
+        background-color: blue;
+    }
+    40%{
+        background-color: yellowgreen;
+      
+    }
+    50%{
+        background-color: darksalmon;
+    }
+    80%{
+        background-color: skyblue;
+        transform: translate(300px);
+    }
+
+}
+    </style>
+
+<body>
+<div class="box"></div>
+</body>
+</head>
